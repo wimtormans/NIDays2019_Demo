@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="1CB7656941F660662EA0035678C19B44B0C1031724A215DE5F1419EF81C01A08A3D0D63E32BD506C3D4558CBF6FE72246A25AE881862E5AAE5367DF40F089A53" Timestamp="1D59A29F3D0B425" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="VI Technologies" ContentType="Binary" ShortDescription="VI Technologies DemoNIDays" TargetedProduct="LabVIEW" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="480608674f914a7dbfc14a5db5cc56d8" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="vitechnologies-demonidays" p3:DistributionCategory="Application" p3:MaintainerEmail="wim@vi-tech.nl" p3:MaintainerName="VI Technologies" p3:PackageDisplayName="WebApp" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="7a284d87c0d4403ba20bd2a9865a1a5d" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="f386fbf540d24d0abccf6e2df279e059" MemberContentType="Component" RootLocation="ApplicationFiles_64" Target="::Web Server::Interactive::WebApp.gcomp" />
+		<DistributionDependencyContent DisplayName="Measurement Studio Common Runtime for .NET Framework 4.0" Id="2bc9579cb2834b15bb605bb11ffb4b40" Included="False" MaintainerName="National Instruments" Name="ni-mstudio-common-fx40-19.0.0-runtime" Version="19.0.0.49152-0+f0" />
+		<DistributionDependencyContent DisplayName="Measurement Studio Analysis Runtime 17.0 for .NET Framework 4.5" Id="58c9ed35222040e5b83dd74972b9ca16" Included="False" MaintainerName="National Instruments" Name="ni-mstudio-analysis-fx45-runtime" Version="17.0.0.49153-0+f1" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG Run-Time Engine" Id="ccf862621f694fb6b3b1add3f21117ed" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-3.0.0-rte" Version="6.4.1.49154-0+f2" />
+	</DistributionDefinition>
+</SourceFile>
