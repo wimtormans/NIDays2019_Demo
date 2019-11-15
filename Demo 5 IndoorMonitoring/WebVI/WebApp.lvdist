@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="E201A02D4799B0AE4DA42A9FAAEB22DF86418251D836E7D6ECA1DF542372A23D315EC76BD814A11D2618B408B724350CCDF5CB9FBD8091A2712454D77E24C0A3" Timestamp="1D59B15D5CCC206" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="6.1.0.1" Version="6.2.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="6.4.1.50844" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="6.2.0.49154" Version="6.2.0.49154" />
+		<ApplicationVersionInfo Build="6.4.1.50844" Name="LabVIEW NXG" Version="3.1.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Company="VI Technologies" ContentType="Binary" Product="IndoorMonitoring" TargetedProduct="LabVIEW" Version="1.0.0.15" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="2" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="vitechnologies-indoormonitoring-labview-webapp-bin-1" p3:DistributionCategory="Application" p3:MaintainerEmail="wim@vi-tech.nl" p3:MaintainerName="Wim Tormans" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="3" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="4" MemberContentType="Component" Target="::Web Server::Interactive::WebApp.gcomp" />
+	</DistributionDefinition>
+</SourceFile>
